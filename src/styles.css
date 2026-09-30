@@ -245,7 +245,7 @@
   .hero > img { object-position: 63% center; }
   .hero-overlay { background: linear-gradient(0deg, var(--background) 0%, color-mix(in oklab, var(--background) 87%, transparent) 27%, color-mix(in oklab, var(--background) 15%, transparent) 68%), linear-gradient(90deg, color-mix(in oklab, var(--background) 45%, transparent), transparent); }
   .hero-copy { width: 100%; padding: 0 1rem 4.5rem; }
-  .hero h1 { font-size: clamp(2.7rem, 14vw, 4.1rem); }
+  .hero h1 { font-size: clamp(2.7rem, 14vw, 4.1rem); line-height: .96; letter-spacing: -.03em; }
   .hero-copy > p:not(.eyebrow) { max-width: 29rem; font-size: .88rem; }
   .hero-buttons { display: grid; grid-template-columns: 1fr 1fr; }
   .hero-buttons button { min-width: 0; padding-inline: .7rem; font-size: .68rem; }
