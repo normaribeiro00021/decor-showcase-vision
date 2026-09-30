@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Stunning Home Showcase
+
+Não avance para backend agora. Primeiro quero ver exclusivamente a Home em desktop e mobile. Não faça dashboard. Não faça sidebar. Não faça cards pequenos. Quero predominância de imagens reais, cards 2:3, carrosséis horizontais e um hero cinematográfico. Se não parecer uma plataforma de streaming premium de decoração à primeira vista, refaça antes de continuar.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/12eb7966-a017-4da4-8d5f-a493ad92aa90).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
