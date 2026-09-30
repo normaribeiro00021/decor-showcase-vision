@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the Casa Criativa Home frontend-only until backend work is explicitly requested, because the current milestone is visual validation.
+- Use generated local editorial photography as the Home's visual asset system, because imagery must dominate the streaming-style experience.
