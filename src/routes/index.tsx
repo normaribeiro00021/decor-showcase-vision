@@ -3,7 +3,6 @@ import {
   Bell,
   Bookmark,
   ChevronDown,
-  Clock3,
   Compass,
   Heart,
   Menu,

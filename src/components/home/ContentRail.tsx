@@ -45,7 +45,7 @@ export function ContentRail({ id, title, eyebrow, items, wide }: ContentRailProp
       </div>
       <div ref={railRef} className={cn("content-rail", wide && "content-rail-wide")}>
         {items.map((item, index) => (
-          <CoverCard key={`${title}-${item.title}-${index}`} item={item} wide={wide} />
+          <CoverCard key={`${title}-${item.title}-${index}`} item={item} wide={Boolean(wide)} />
         ))}
       </div>
     </section>
