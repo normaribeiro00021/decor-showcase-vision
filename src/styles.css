@@ -163,7 +163,7 @@
   .brand-mark { display: grid; width: 2.25rem; height: 2.25rem; place-items: center; color: var(--accent); border: 1px solid color-mix(in oklab, var(--accent) 50%, transparent); transform: rotate(45deg); }
   .brand-mark svg { transform: rotate(-45deg); }
   .brand > span:last-child { display: grid; line-height: .86; letter-spacing: 0; }
-  .brand b { font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; }
+  .brand b { font-family: var(--font-display); font-size: 1.28rem; font-weight: 600; letter-spacing: -.015em; }
   .brand em { margin-top: .32rem; color: var(--accent); font-size: .55rem; font-style: normal; font-weight: 700; letter-spacing: .24em; }
   .desktop-nav { display: none; align-items: center; gap: 1.55rem; }
   .desktop-nav a { color: var(--muted-foreground); font-size: .68rem; font-weight: 700; text-decoration: none; text-transform: uppercase; }
@@ -176,14 +176,14 @@
   .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in oklab, var(--background) 98%, transparent) 0%, color-mix(in oklab, var(--background) 80%, transparent) 35%, transparent 72%), linear-gradient(0deg, var(--background) 0%, transparent 42%), linear-gradient(180deg, color-mix(in oklab, var(--background) 45%, transparent), transparent 28%); }
   .hero-copy { position: relative; z-index: 1; width: min(44rem, 90vw); padding: 0 5vw 7.5rem; }
   .eyebrow { display: flex; align-items: center; gap: .5rem; margin-bottom: .9rem; color: var(--accent); font-size: .66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .18em; }
-  .hero h1 { max-width: 12ch; font-family: var(--font-display); font-size: clamp(3.1rem, 6.4vw, 6.8rem); font-weight: 400; line-height: .91; text-wrap: balance; }
+  .hero h1 { max-width: 12ch; font-family: var(--font-display); font-size: clamp(3.1rem, 6.4vw, 6.8rem); font-weight: 300; line-height: .92; letter-spacing: -.04em; text-wrap: balance; }
   .hero-copy > p:not(.eyebrow) { max-width: 36rem; margin-top: 1.35rem; color: var(--muted-foreground); font-size: clamp(.95rem, 1.25vw, 1.12rem); line-height: 1.7; }
   .hero-buttons { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
   .hero-scroll { position: absolute; z-index: 2; bottom: 1.5rem; left: 50%; color: var(--muted-foreground); transform: translateX(-50%); animation: float 2.2s ease-in-out infinite; }
 
   .content-section { width: min(100%, 100rem); margin: 0 auto; padding: 4.5rem 4vw 0; }
   .section-heading { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 1rem; margin-bottom: 1.4rem; }
-  .section-heading h2, .daily-copy h2, .explore-copy h2 { font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 3.25rem); font-weight: 400; line-height: 1; }
+  .section-heading h2, .daily-copy h2, .explore-copy h2 { font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 3.25rem); font-weight: 400; line-height: 1.02; letter-spacing: -.032em; }
   .section-heading .eyebrow { margin-bottom: .45rem; }
   .content-rail { display: grid; grid-auto-flow: column; grid-auto-columns: clamp(13.5rem, 19vw, 18rem); gap: 1rem; overflow-x: auto; padding: .35rem 4vw 1.75rem 0; scroll-snap-type: x mandatory; scrollbar-width: none; }
   .content-rail::-webkit-scrollbar { display: none; }
@@ -195,7 +195,7 @@
   .cover-badge { position: absolute; top: .75rem; left: .75rem; z-index: 2; border-radius: 2px; background: var(--primary); color: var(--primary-foreground); padding: .35rem .5rem; font-size: .55rem; font-weight: 700; letter-spacing: .09em; }
   .cover-copy { position: absolute; z-index: 2; inset: auto .95rem 1rem; pointer-events: none; }
   .cover-copy p { color: var(--accent); font-size: .61rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
-  .cover-copy h3 { margin-top: .28rem; font-family: var(--font-display); font-size: 1.45rem; font-weight: 400; line-height: 1.05; }
+  .cover-copy h3 { margin-top: .28rem; font-family: var(--font-display); font-size: 1.4rem; font-weight: 500; line-height: 1.08; letter-spacing: -.022em; }
   .cover-actions { position: absolute; z-index: 3; top: .75rem; right: .75rem; display: flex; gap: .4rem; opacity: 0; transform: translateY(-.4rem); transition: .25s ease; }
   .cover-card:hover .cover-actions, .cover-card:focus-within .cover-actions { opacity: 1; transform: translateY(0); }
   .progress-track { height: 3px; overflow: hidden; background: var(--border); }
